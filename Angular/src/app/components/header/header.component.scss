@@ -1,0 +1,48 @@
+/*
+  --- COLORS
+  #016FB9 AZUL BLUE
+  #4C1A57 RUSSIAN VIOLET
+  #D00000 ENGINEERING ORANGE
+  #FAFFFD BABY POWERD WHITE
+  #19180A SMOKY BLACK
+
+*/
+.main-part {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 12rem;
+  padding: 0 1.5rem;
+  //background-color: black;
+
+}
+
+.all-header-elements{
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19180A ;
+  color:white
+}
+
+.logo{
+  width: 31rem;
+}
+.image{
+  width: 100rem;
+}
+
+.user-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  background-color: blue;
+}
+
+.p-ripple.p-element.p-button.p-component {
+  height: 10rem;
+  width: auto;
+  border-radius: 0;
+}
