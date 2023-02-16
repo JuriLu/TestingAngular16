@@ -8,11 +8,17 @@ import {ButtonModule} from "primeng/button";
 import {RippleModule} from "primeng/ripple";
 import {ChipModule} from "primeng/chip";
 import { HeaderComponent } from './components/header/header.component';
+import { SignINComponent } from './components/auth/sign-in/sign-in.component';
+import { SignUPComponent } from './components/auth/sign-up/sign-up.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    SignINComponent,
+    SignUPComponent,
+    HeroComponent,
   ],
   imports: [
     BrowserModule,
